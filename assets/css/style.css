@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.bg {
+
+    margin-top: 50px;
+    width: 60vw;
+    height: auto;
+    background: rgb(176, 180, 180);
+    padding: 50px;
+    display: flex;
+}
+
+.headers {
+    width: 40vw;
+    
+}
+.headers .item{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid white;
+    display: flex;
+
+
+
+
+}
+.headers .icon{
+color: rgb(58, 39, 228);
+
+}
+.icon.active{
+    background-color: aqua;
+    transition: all 0.5s;
+}
+.contents{
+    padding: 30px;
+    width: 111vw;
+    background-color: aliceblue;
+}
+
+.active-menu{
+    background-color: aliceblue;
+}
+
+.slider{
+    margin-top: 150px;
+    width: 60vw;
+    height: 400px;
+    position: relative;
+
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+
+
+
+}
+
+.slider i {
+    position: absolute;
+    color: rgb(255, 238, 238);
+    font-size: 50px;
+    z-index: 1;
+    cursor: pointer;
+    top: 170px;
+
+}
+
+.slider .right{
+    right: 10px;
+
+}
+.slider .left{
+    left: 30px;
+}
+.active-img{
+    opacity: 1 !important;
+}
